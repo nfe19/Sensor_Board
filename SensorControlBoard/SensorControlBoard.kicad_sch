@@ -41,10 +41,6 @@
     (property "Sheetfile" "uController.kicad_sch" (at 36.83 189.484 0)
       (effects (font (size 5 5)) (justify left top))
     )
-    (pin "+3.3V" output (at 157.226 113.284 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 679777ea-2b3e-4ba9-9a1f-995184009fc5)
-    )
     (instances
       (project "SensorControlBoard"
         (path "/8c0c4014-aa51-4bf6-8434-aa4d122163d4" (page "3"))
