@@ -14,14 +14,14 @@
   )
 
 
-  (sheet (at 189.992 100.076) (size 97.79 70.358)
+  (sheet (at 192.532 57.912) (size 97.79 70.358)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 08ebbf42-81e7-4a5c-bbac-f4d91ee3da15)
-    (property "Sheetname" "Peripherals" (at 198.374 98.298 0)
+    (property "Sheetname" "Peripherals" (at 200.914 56.134 0)
       (effects (font (size 10 10) bold) (justify left bottom))
     )
-    (property "Sheetfile" "perepherals.kicad_sch" (at 195.326 171.958 0)
+    (property "Sheetfile" "perepherals.kicad_sch" (at 197.866 129.794 0)
       (effects (font (size 5 5)) (justify left top))
     )
     (instances
@@ -31,14 +31,14 @@
     )
   )
 
-  (sheet (at 23.622 91.948) (size 133.604 96.012)
+  (sheet (at 28.194 42.164) (size 133.604 96.012)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 1219a1e8-5b4c-4ffc-965f-b8113c415640)
-    (property "Sheetname" "uController" (at 45.466 90.932 0)
+    (property "Sheetname" "uController" (at 50.038 41.148 0)
       (effects (font (size 10 10) bold) (justify left bottom))
     )
-    (property "Sheetfile" "uController.kicad_sch" (at 36.83 189.484 0)
+    (property "Sheetfile" "uController.kicad_sch" (at 41.402 139.7 0)
       (effects (font (size 5 5)) (justify left top))
     )
     (instances
