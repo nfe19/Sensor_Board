@@ -48,6 +48,23 @@
     )
   )
 
+  (sheet (at 133.096 166.37) (size 82.804 87.63)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid acf4f0ab-a028-4eb3-84cb-1bda7f2cd4a0)
+    (property "Sheetname" "Misc" (at 156.21 165.608 0)
+      (effects (font (size 10 10) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "Misc.kicad_sch" (at 133.096 254.5846 0)
+      (effects (font (size 5 5)) (justify left top))
+    )
+    (instances
+      (project "SensorControlBoard"
+        (path "/8c0c4014-aa51-4bf6-8434-aa4d122163d4" (page "4"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )

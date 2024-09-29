@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 2.2,
+          "height": 2.2,
+          "width": 2.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -178,7 +178,12 @@
       ],
       "track_widths": [
         0.0,
-        0.254
+        0.1778,
+        0.2032,
+        0.254,
+        0.2794,
+        0.3048,
+        0.5
       ],
       "via_dimensions": [
         {
@@ -186,8 +191,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.55,
-          "drill": 0.4
+          "diameter": 0.7,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -200,11 +205,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_not_driven|3037840|645160|e9544286-5d59-4f7a-a5d9-54a539441a87|00000000-0000-0000-0000-000000000000|||",
-      "pin_to_pin|1282700|431800|2b079c43-991e-43ad-8777-cf270f75fd5b|f80149ba-38ee-4444-9473-c2e5457339dd|/8c0c4014-aa51-4bf6-8434-aa4d122163d4/1219a1e8-5b4c-4ffc-965f-b8113c415640|/8c0c4014-aa51-4bf6-8434-aa4d122163d4/1219a1e8-5b4c-4ffc-965f-b8113c415640|/8c0c4014-aa51-4bf6-8434-aa4d122163d4/1219a1e8-5b4c-4ffc-965f-b8113c415640",
-      "power_pin_not_driven|899160|414020|8f09ef31-239e-460f-866f-b60fd2e9c82f|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -451,7 +452,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "GPIO_4"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -510,6 +516,10 @@
     [
       "1219a1e8-5b4c-4ffc-965f-b8113c415640",
       "uController"
+    ],
+    [
+      "acf4f0ab-a028-4eb3-84cb-1bda7f2cd4a0",
+      "Misc"
     ]
   ],
   "text_variables": {}
