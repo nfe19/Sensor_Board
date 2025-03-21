@@ -26,7 +26,7 @@
     )
     (instances
       (project "SensorControlBoard"
-        (path "/8c0c4014-aa51-4bf6-8434-aa4d122163d4" (page "2"))
+        (path "/8c0c4014-aa51-4bf6-8434-aa4d122163d4" (page "3"))
       )
     )
   )
@@ -43,7 +43,7 @@
     )
     (instances
       (project "SensorControlBoard"
-        (path "/8c0c4014-aa51-4bf6-8434-aa4d122163d4" (page "3"))
+        (path "/8c0c4014-aa51-4bf6-8434-aa4d122163d4" (page "2"))
       )
     )
   )

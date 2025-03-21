@@ -498,7 +498,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "D:/User/Karam/Downloads/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -513,12 +513,12 @@
       ""
     ],
     [
-      "08ebbf42-81e7-4a5c-bbac-f4d91ee3da15",
-      "Peripherals"
-    ],
-    [
       "1219a1e8-5b4c-4ffc-965f-b8113c415640",
       "uController"
+    ],
+    [
+      "08ebbf42-81e7-4a5c-bbac-f4d91ee3da15",
+      "Peripherals"
     ],
     [
       "acf4f0ab-a028-4eb3-84cb-1bda7f2cd4a0",
